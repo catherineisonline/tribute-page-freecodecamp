@@ -8,6 +8,8 @@ By working on these projects, I will get a chance to apply all of the skills, pr
 
 There are total of five web programming projects to earn Responsive Web Design certification.
 
+The target for my tribute page will be Ada Lovelace known as the first computer programmer.
+
 # Project objective
 
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
