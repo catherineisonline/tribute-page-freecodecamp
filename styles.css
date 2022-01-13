@@ -1,1 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+:root {
+ --title-fonts: 'Bebas Neue', cursive;
+ --white: white;
+ --background-color: #C2C1D6;
+ --purple: rgb(97, 33, 122);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var( --background-color);
+}
+
+/** Heading **/
+.header {
+    position: sticky;
+    background-image: url('/images/header-bg.jpeg');
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    min-height: 55rem;
+    margin-top: 0;
+}
+
+.navigation {
+    position: fixed;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    text-transform: uppercase;
+    list-style: none;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+}
+.navigation a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+  .header-title {
+      position: relative;
+      width: 20%;
+      justify-content: left;
+      align-content: left;
+      text-align: left;
+      margin-top: 12rem;
+      margin-left: 20rem;
+      text-transform: uppercase;
+  }
+  h1 {
+      color: var(--white);
+      font-family: var(--title-fonts);
+      font-size: 4rem;
+      letter-spacing: 2px;
+  }
+  .header-title p {
+    color: var(--purple);
+    font-weight: 700;
+    
+  }
+
+
+  /**
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+  
+  
