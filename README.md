@@ -1,5 +1,5 @@
 # In Progress
-
+<img src='https://github.com/catherineisonline/tribute-page-freecodecamp/blob/main/images/project-preview.png?raw=true'></img>
 
 
 # A Tribute Page project for Responsive Web Design Certification by freeCodeCamp
