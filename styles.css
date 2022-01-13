@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@1,300;1,600&display=swap');
 
 :root {
- --title-fonts: 'Bebas Neue', cursive;
+ --title-fonts: 'Libre Baskerville', serif;
  --red-hat-font: 'Red Hat Display', sans-serif;
- --white: white;
- --background-color: #C2C1D6;
+ --white: rgba(236, 236, 236, 0.877);
+ --background-color: #000000;
  --purple: rgb(97, 33, 122);
 
 }
@@ -17,6 +17,7 @@
 }
 html, body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -24,20 +25,19 @@ body {
     background-color: var( --background-color);
 }
 /** Navigation **/
-
 nav {
     position: relative;
     width: 100%;
     position: fixed;
     box-shadow: -2px 10px 24px -11px rgba(0,0,0,0.62);
--webkit-box-shadow: -2px 10px 24px -11px rgba(0,0,0,0.62);
--moz-box-shadow: -2px 10px 24px -11px rgba(0,0,0,0.62);
+    -webkit-box-shadow: -2px 10px 24px -11px rgba(0,0,0,0.62);
+    -moz-box-shadow: -2px 10px 24px -11px rgba(0,0,0,0.62);
 }
 .navigation {
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: right;  
     width: 100%;
     text-transform: uppercase;
     list-style: none;
@@ -54,7 +54,6 @@ nav {
 .navigation a {
     text-decoration: none;
     color: var(--white);
-    text-shadow: 1px -1px 7px rgba(0,0,0,0.66);
 }
 .navigation a:hover {
     color: #f1dc70;
@@ -63,38 +62,69 @@ nav {
   }
 /** Heading **/
 .header {
-    background-image: url('images/header-bg.jpeg');
+    background-color: #837960;
+    background-image: linear-gradient(to bottom, transparent, #000000), url('images/header-bg.jpeg');
     background-position: center center;
     background-size: cover;
     overflow: hidden;
     width: 100%;
     height: 100%;
-    min-height: 50rem;
+    min-height: 60rem;
     margin-top: 5rem;
 }
 
-
   .header-title {
-      width: 20%;
+      width: 30%;
       justify-content: left;
       align-content: left;
       text-align: left;
       margin-top: 12rem;
-      margin-left: 20rem;
+      margin-left: 12rem;
       text-transform: uppercase;
   }
   h1 {
       color: var(--white);
       font-family: var(--title-fonts);
-      font-size: 4rem;
-      letter-spacing: 2px;
+      font-size: 3rem;
     
   }
-  .header-title p {
-    color: var(--purple);
+  h2 {
+    color: var(--white);
     font-weight: 600;
-    font-family: var(--red-hat-font);
+    word-spacing: 8px;
   }
+/** About Section **/
+
+.about-section {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    color: var(--white);
+
+}
+
+.about-pic {
+    background-image: url('/images/about-pic.jpeg');
+    background-size: cover;
+    width: 100%;
+    min-width: 30rem;
+    height: 100%;
+    min-height: 40rem;
+    border-radius: 50%;
+}
+.about-content h3 {
+    font-size: 3rem;
+    font-family: var(--title-fonts);
+}
+.about-content p {
+    font-size: 2rem;
+    text-align: left;
+}
 
 
   /**

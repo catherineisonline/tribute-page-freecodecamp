@@ -13,23 +13,40 @@
 </head>
 
 <body>
+    <!-- Navigation -->
     <nav>
         <ul class="navigation">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Timeline</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tribute-info">Timeline</a></li>
             <li><a href="">Resources</a></li>
-            
+
         </ul>
     </nav>
-    <header class="header">
+    <!-- Header -->
+    <header class="header" id="header">
         <div class="header-title" id="title">
             <h1 id="title">Augusta Ada King Noel</h1>
-            <p>aka Ada Lovelace</p>
-         <!--   <p>The first computer programmer</p> -->
+            <h2>aka Ada Lovelace</h2>
+            <!--   <p>The first computer programmer</p> -->
         </div>
     </header>
+    <!-- Container -->
     <main id="main">
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="about-pic"></div>
+            <div class="about-content">
+                <h3>Augusta Ada King</h3>
+                <h3>Countess of Lovelace</h3>
+                <p>was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed
+                    mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the
+                    machine had applications beyond pure calculation, and to have published the first algorithm intended
+                    to be carried out by such a machine. As a result, she is often regarded as
+                   <em>the first computer programmer.</em></p>
+            </div>
+
+        </section>
         <section id="tribute-info">
             <h3 id="headline">Here's a time line of Ada Lovelace's life:</h3>
             <ul>
@@ -87,7 +104,8 @@
         </section>
     </main>
 
-
+<script src="app.js"
+type="javascript"></script>
 </body>
 
 </html>
