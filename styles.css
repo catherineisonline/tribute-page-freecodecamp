@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@1,300;1,600&display=swap');
 
 :root {
  --title-fonts: 'Bebas Neue', cursive;
+ --red-hat-font: 'Red Hat Display', sans-serif;
  --white: white;
  --background-color: #C2C1D6;
  --purple: rgb(97, 33, 122);
+
 }
 
 
@@ -89,7 +92,8 @@ nav {
   }
   .header-title p {
     color: var(--purple);
-    font-weight: 700;
+    font-weight: 600;
+    font-family: var(--red-hat-font);
   }
 
 
