@@ -128,8 +128,6 @@ h2 {
     margin: 0 auto;
     margin-top: 8rem;
     color: var(--white);
-    justify-content: center;
-    align-content: center;
 }
 .tribute-info h3 {
     font-size: 3rem;
@@ -139,15 +137,32 @@ h2 {
 }
 
 .timeline-section {
+    width: 100%;
   display: flex;
   flex-direction: row;
   gap: 20rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: var(--red-hat-font);
+  justify-items: center;
 }
 
 .timeline-years,
 .timeline-months,
 .timeline-events {
+width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 10rem;
+  vertical-align: top;
+  text-align: left;
+
 }
+
+.timeline-events {
+    gap: 8rem;
+}
+
+
+
