@@ -28,9 +28,6 @@ nav {
   position: relative;
   width: 100%;
   position: fixed;
-  box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
-  -webkit-box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
-  -moz-box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
 }
 .navigation {
   position: relative;
