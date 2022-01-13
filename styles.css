@@ -63,7 +63,7 @@ nav {
   }
 /** Heading **/
 .header {
-    background-image: url('/images/header-bg.jpeg');
+    background-image: url('images/header-bg.jpeg');
     background-position: center center;
     background-size: cover;
     overflow: hidden;
