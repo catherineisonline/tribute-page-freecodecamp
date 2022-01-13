@@ -12,7 +12,7 @@ The target for my tribute page will be Ada Lovelace known as the first computer 
 
 # Project objective
 
-Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
+Build a CodePen.io app that is functionally similar to <a href='https://codepen.io/freeCodeCamp/full/zNqgVx'>this</a>.
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
@@ -46,9 +46,13 @@ User Story #9: The img element should be centered within its parent element.
 
 # Additionally
 
-You can build your project by using this CodePen template and clicking Save to create your own pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js.
+You can build your project by using <a href='https://codepen.io/freeCodeCamp/full/zNqgVx'>this</a> CodePen template and clicking Save to create your own pen. Or you can use <a href='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'>this</a> CDN link to run the tests in any environment you like.
 
 Or you can use my repository.
+
+# Resources
+
+You can find Responsive Web Design Certification <a href='https://www.freecodecamp.org/learn/responsive-web-design/'>here</a>.
 
 
 
