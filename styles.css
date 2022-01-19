@@ -50,6 +50,10 @@ nav {
   text-decoration: none;
   color: var(--white);
 }
+/** Hamburger **/
+.ham-icon {
+  display: none;
+}
 /** Heading **/
 .header {
   background-color: #837960;
@@ -96,6 +100,10 @@ h2 {
   gap: 5rem;
   color: var(--white);
   margin-top: 8rem;
+}
+.highlight {
+  display: block;
+  color: var(--yellow-hover);
 }
 
 .about-pic {
@@ -239,7 +247,6 @@ h2 {
 }
 
 /** Media Queries **/
-
 @media screen and (max-width: 1200px) {
   .about-section {
     flex-direction: column;
@@ -248,6 +255,38 @@ h2 {
 }
 
 @media screen and (max-width: 1025px) {
+  .header {
+    margin-top: 0;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .nav {
+    background-color: transparent;
+  }
+
+  .ham-icon {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+   justify-content: right;
+    height: 5rem;
+    background-color: transparent;
+    border: transparent;
+    color: var(--white);
+    font-size: 4rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .navigation.responsive {
+    display: flex;
+    flex-direction: column;
+  }
+
   .resources {
     flex-direction: column;
     align-items: center;

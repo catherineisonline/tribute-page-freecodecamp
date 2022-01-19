@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONT AWESOME-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <!-- STYLESHEET -->
     <link href="styles.css" rel="stylesheet">
     <!-- ICON -->
@@ -16,12 +19,15 @@
     <!-- Navigation -->
     <nav>
         <ul class="navigation">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#tribute-info">Timeline</a></li>
-            <li><a href="#resources">Resources</a></li>
+            <li><a class="menu-item" href="#header">Home</a></li>
+            <li><a class="menu-item" href="#about">About</a></li>
+            <li><a class="menu-item" href="#tribute-info">Timeline</a></li>
+            <li><a class="menu-item" href="#resources">Resources</a></li>
 
         </ul>
+        <button class="ham-icon">
+            <i class="fal fa-bars"></i>
+        </button>
     </nav>
     <!-- Header -->
     <header class="header" id="header">
@@ -37,8 +43,8 @@
         <section class="about-section" id="about">
             <div class="about-pic" id="img-div"></div>
             <div class="about-content">
-                <h3>Augusta Ada King</h3>
-                <h3>Countess of Lovelace</h3>
+                <h3>Augusta Ada King <span class="highlight">
+                    Countess of Lovelace</span></h3>
                 <p>was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed
                     mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the
                     machine had applications beyond pure calculation, and to have published the first algorithm intended
@@ -236,9 +242,7 @@
             </section>
         </section>
     </main>
- 
-
-    <script src="app.js" type="javascript"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
