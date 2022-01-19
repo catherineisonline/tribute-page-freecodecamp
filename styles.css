@@ -39,6 +39,7 @@ nav {
   gap: 2rem;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 .navigation li {
   padding: 2rem;
