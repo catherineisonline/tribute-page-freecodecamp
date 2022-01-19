@@ -125,7 +125,7 @@ h2 {
     margin-bottom: 8rem;
     color: var(--white);
 }
-.tribute-info h3 {
+.tribute-info h3, .resources h3 {
     font-size: 3rem;
     font-family: var(--title-fonts);
     text-align: center;
@@ -167,11 +167,33 @@ h2 {
   font-size: 1.2rem;
 }
 
+/** Blockquote **/
 
+.blockquote, .resources {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  font-family: var(--red-hat-font);
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.blockquote cite {
+  color: var(--yellow-hover);
+}
 
+/** Resources **/
+.resources-list {
+  list-style: none;
+}
+.resources-list a {
+  text-decoration: none;
+  color: var(--white);
+}
 /** Hover **/
 @media (hover: hover) {
-  .timeline-month p:hover, .timeline-year p:hover, .timeline-event p:hover,   .navigation a:hover {
+  .timeline-month p:hover, .timeline-year p:hover, .timeline-event p:hover,   .navigation a:hover, .resources-list a:hover {
     cursor: pointer;
     color: var(--yellow-hover);
     transition: color ease-in 0.3s;
