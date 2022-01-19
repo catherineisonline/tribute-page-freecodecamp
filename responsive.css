@@ -56,7 +56,7 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .about-content h3,
     .tribute-info h3,
     .resources h3 {
