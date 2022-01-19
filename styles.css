@@ -180,7 +180,6 @@ h2 {
 }
 
 /** Blockquote **/
-
 .blockquote {
   width: 60%;
   margin: 0 auto;
@@ -298,6 +297,9 @@ h2 {
   }
   .timeline-section {
     gap: 2rem;
+  }
+  .blockquote {
+    width: 90%;
   }
 }
 
