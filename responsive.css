@@ -65,5 +65,8 @@
       padding: 20px 0;
       line-height: 3rem;
     }
+    .header-title {
+      margin-left: 2rem;
+    }
   }
   
