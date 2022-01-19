@@ -30,7 +30,6 @@ nav {
   position: fixed;
 }
 .navigation {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: right;
