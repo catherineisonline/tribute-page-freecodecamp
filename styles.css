@@ -125,7 +125,7 @@ h2 {
     margin-bottom: 8rem;
     color: var(--white);
 }
-.tribute-info h3, .resources h3 {
+.tribute-info h3 {
     font-size: 3rem;
     font-family: var(--title-fonts);
     text-align: center;
@@ -136,7 +136,7 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3rem;
   justify-content: center;
   text-align: center;
   font-size: 1.5rem;
@@ -169,7 +169,7 @@ h2 {
 
 /** Blockquote **/
 
-.blockquote, .resources {
+.blockquote {
   position: relative;
   width: 60%;
   margin: 0 auto;
@@ -184,8 +184,38 @@ h2 {
 }
 
 /** Resources **/
+.resources {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  font-family: var(--red-hat-font);
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 8rem;
+}
+.resources h3 {
+  font-size: 3rem;
+  font-family: var(--title-fonts);
+  text-align: center;
+ width: 50%;
+}
+.resources-img {
+  background-image: url('images/resources-img.jpeg');
+  width: 80%;
+  min-width: 15rem;
+  height: 15rem;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+}
 .resources-list {
   list-style: none;
+  line-height: 3rem;
 }
 .resources-list a {
   text-decoration: none;
