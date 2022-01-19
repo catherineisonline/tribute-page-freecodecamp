@@ -263,6 +263,7 @@ h2 {
 
   .nav {
     background-color: transparent;
+    
   }
 
   .ham-icon {
@@ -271,12 +272,13 @@ h2 {
     top: 0;
     right: 0;
     display: flex;
+    float: right;
    justify-content: right;
     height: 5rem;
     background-color: transparent;
     border: transparent;
     color: var(--white);
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 1rem;
     cursor: pointer;
   }
@@ -284,6 +286,8 @@ h2 {
   .navigation.responsive {
     display: flex;
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
   }
 
   .resources {
