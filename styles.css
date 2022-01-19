@@ -7,6 +7,7 @@
   --white: rgba(236, 236, 236, 0.877);
   --background-color: #000000;
   --purple: rgb(97, 33, 122);
+  --yellow-hover: #fae475;
 }
 
 * {
@@ -49,10 +50,6 @@ nav {
 .navigation a {
   text-decoration: none;
   color: var(--white);
-}
-.navigation a:hover {
-  color: #f1dc70;
-  transition: color ease-in 0.3s;
 }
 /** Heading **/
 .header {
@@ -122,8 +119,10 @@ h2 {
 /** Timeline Section **/
 .tribute-info {
     width: 90%;
+    height: auto;
     margin: 0 auto;
     margin-top: 8rem;
+    margin-bottom: 8rem;
     color: var(--white);
 }
 .tribute-info h3 {
@@ -134,32 +133,47 @@ h2 {
 }
 
 .timeline-section {
-    width: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  gap: 20rem;
+  flex-direction: column;
+  gap: 5rem;
   justify-content: center;
   text-align: center;
   font-size: 1.5rem;
   font-family: var(--red-hat-font);
-  justify-items: center;
+  
 }
 
-.timeline-years,
-.timeline-months,
-.timeline-events {
-width: 100%;
-  display: flex;
-  flex-direction: column;
+.timeline-in-detail {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: left;
   gap: 10rem;
-  vertical-align: top;
-  text-align: left;
-
 }
 
-.timeline-events {
-    gap: 8rem;
+.timeline-month, .timeline-year, .timeline-event {
+  width: 100%;
+}
+.timeline-month {
+  font-size: 1.5rem;
+}
+.timeline-year {
+  font-size: 2rem;
+}
+
+.timeline-event {
+  font-size: 1.2rem;
 }
 
 
 
+/** Hover **/
+@media (hover: hover) {
+  .timeline-month p:hover, .timeline-year p:hover, .timeline-event p:hover,   .navigation a:hover {
+    cursor: pointer;
+    color: var(--yellow-hover);
+    transition: color ease-in 0.3s;
+  }
+}
