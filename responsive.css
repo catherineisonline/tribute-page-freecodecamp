@@ -1,72 +1,71 @@
 /** Media Queries **/
 @media screen and (max-width: 1200px) {
-    .about-section {
-      flex-direction: column;
-      align-items: center;
-    }
+  .about-section {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  @media screen and (max-width: 1025px) {
-    .header {
-      margin-top: 0;
-    }
-    .navigation {
-      display: none;
-    }
-  
-    .ham-icon {
-      width: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      display: inline-block;
-      justify-content: right;
-      text-align: right;
-      height: 5rem;
-      background-color: transparent;
-      border: transparent;
-      color: var(--white);
-      font-size: 3rem;
-      padding: 1rem;
-      cursor: pointer;
-    }
-  
-    .navigation.responsive {
-      display: inline-block;
-      width: 100%;
-      background-color: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-    }
-  
-    .resources {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .timeline-in-detail {
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-    .timeline-section {
-      gap: 2rem;
-    }
-    .blockquote {
-      width: 90%;
-    }
+}
+
+@media screen and (max-width: 1025px) {
+  .header {
+    margin-top: 0;
   }
-  
-  @media screen and (max-width: 800px) {
-    .about-content h3,
-    .tribute-info h3,
-    .resources h3 {
-      width: 100%;
-      font-size: 2.2rem;
-      padding: 20px 0;
-      line-height: 3rem;
-    }
-    .header-title {
-      margin-left: 2rem;
-    }
+  .navigation {
+    display: none;
   }
-  
+
+  .ham-icon {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    justify-content: right;
+    text-align: right;
+    height: 5rem;
+    background-color: transparent;
+    border: transparent;
+    color: var(--white);
+    font-size: 3rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .navigation.responsive {
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  .resources {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline-in-detail {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .timeline-section {
+    gap: 2rem;
+  }
+  .blockquote {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-content h3,
+  .tribute-info h3,
+  .resources h3 {
+    width: 100%;
+    font-size: 2.2rem;
+    padding: 20px 0;
+    line-height: 3rem;
+  }
+  .header-title {
+    margin-left: 2rem;
+  }
+}
