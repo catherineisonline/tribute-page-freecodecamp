@@ -5,7 +5,7 @@ const menuItem = document.querySelectorAll(".menu-item");
 const hamIcon = document.querySelector(".fa-bars");
 
 console.log(menuItem);
-
+//Icon style toggle
 const toggleIcon = function () {
   if (myNav.classList.contains("responsive")) {
     hamIcon.classList.remove("fa-bars");
@@ -16,11 +16,13 @@ const toggleIcon = function () {
   }
 };
 
+//Menu toggle by clicking on icon
 myHamburger.addEventListener("click", function () {
   myNav.classList.toggle("responsive");
   toggleIcon();
 });
 
+//Menu toggle by clicking on menu item
 menuItem.forEach(function (e) {
   e.addEventListener("click", function () {
     myNav.classList.remove("responsive");
