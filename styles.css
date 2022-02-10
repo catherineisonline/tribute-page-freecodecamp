@@ -21,8 +21,15 @@ body {
 }
 
 body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
   min-height: 100vh;
   background-color: var(--background-color);
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 /** Navigation **/
 nav {
